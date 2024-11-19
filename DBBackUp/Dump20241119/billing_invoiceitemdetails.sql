@@ -1,0 +1,59 @@
+-- MySQL dump 10.13  Distrib 8.0.38, for Win64 (x86_64)
+--
+-- Host: 127.0.0.1    Database: billing
+-- ------------------------------------------------------
+-- Server version	8.0.39
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `invoiceitemdetails`
+--
+
+DROP TABLE IF EXISTS `invoiceitemdetails`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `invoiceitemdetails` (
+  `ItemId` int NOT NULL AUTO_INCREMENT,
+  `InvoiceId` text,
+  `Description` varchar(255) NOT NULL,
+  `Size` varchar(50) DEFAULT NULL,
+  `Gsm` varchar(50) DEFAULT NULL,
+  `Quantity` int NOT NULL,
+  `Side` varchar(50) DEFAULT NULL,
+  `UnitPrice` decimal(10,2) NOT NULL,
+  `Total` decimal(10,2) GENERATED ALWAYS AS ((`Quantity` * `UnitPrice`)) STORED,
+  `TotalValues` decimal(18,2) DEFAULT NULL,
+  PRIMARY KEY (`ItemId`)
+) ENGINE=InnoDB AUTO_INCREMENT=83 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `invoiceitemdetails`
+--
+
+LOCK TABLES `invoiceitemdetails` WRITE;
+/*!40000 ALTER TABLE `invoiceitemdetails` DISABLE KEYS */;
+INSERT INTO `invoiceitemdetails` (`ItemId`, `InvoiceId`, `Description`, `Size`, `Gsm`, `Quantity`, `Side`, `UnitPrice`, `TotalValues`) VALUES (1,'CP_20241025185930111','asdfadsdq22dqw21e21','2','42',100,'23',1000.00,NULL),(2,'CP_20241025190151631','asdfadsdq22dqw21e21','2','42',100,'23',10.00,NULL),(3,'CP_20241025190151631','dqwereyrrwjj','3','43',20,'45',100.00,NULL),(4,'CP_20241025190151631','ajsdhihw','5','44',30,'56',689.00,NULL),(5,'CP_20241028114430839','asdfadsdq22dqw21e21','2','42',100,'First',30.00,NULL),(6,'CP_20241028114430839','Ashok','3','43',30,'Second',60.00,NULL),(7,'CP_20241028114430839','ajsdhihw','5','44',20,'Firstandback',50.00,NULL),(8,'CP_20241028114430839','Panel','3','45',200,'Second',10.00,NULL),(9,'CP_20241028194713026','asdfadsdq22dqw21e21','18','42',20,'23',20.00,NULL),(10,'CP_20241028194713026','Ashok','3','43',1000,'45',1.00,NULL),(11,'CP_20241106112901968','asdfadsdq22dqw21e21','42','42',133,'23',0.00,NULL),(12,'CP_20241106115651438','qqqwrq','42','42',100,'1',0.00,NULL),(13,'CP_20241106115651438','Ashok','3','43',200,'2',0.00,NULL),(14,'CP_20241106122014056','123','2','42',100,'1',0.00,NULL),(15,'CP_20241106124757454','Product','1','42',100,'1',0.00,NULL),(16,'CP_20241106124757454','product2','2','43',200,'2',0.00,NULL),(17,'CP_20241106131146675','qqqwrq','2','42',1,'23',0.00,NULL),(18,'CP_20241106131146675','product2','3','43',12,'12',0.00,NULL),(19,'CP_20241106143521341','Product','2','42',10,'2',0.00,4000.00),(20,'CP_20241106143521341','Ashok','3','43',4,'1',0.00,4500.00),(21,'CP_20241106143521341','Ashok123','5','44',12,'3',0.00,4000.00),(22,'CP_20241106143521341','Panel123','3','45',78,'Second',0.00,4500.00),(23,'CP_20241106143521341','Panel1','4','46',6,'first',0.00,4000.00),(24,'CP_20241106143521341','Panel2','4','45',6,'rty',0.00,4500.00),(25,'CP_20241106143521341','w','3','46',7,'erete',0.00,4500.00),(26,'CP_20241108110746058','Product123','2','42',100,'23',0.00,4000.00),(27,'CP_20241108110746058','Product2','3','43',50,'Second',0.00,2000.00),(28,'CP_20241108111334940','Product','1','42',34,'First',0.00,300.00),(29,'CP_20241108110746058','Ashok123','5','44',30,'56',0.00,4000.00),(30,'CP_20241108110746058','Panel123','3','45',34,'Second',0.00,4000.00),(31,'CP_20241108111334940','product2','3','43',34,'Second',0.00,4300.00),(33,'CP_20241111144946397','Product123','2','42',30,'1',0.00,4000.00),(34,'CP_20241111144946397','frontendback','3','43',30,'Second',0.00,4500.00),(35,'CP_20241111145406895','Product','2','42',2,'First',0.00,4000.00),(36,'CP_20241116102414054','Product123','23','34',400,'1',0.00,100.00),(37,'CP_20241116102414054','ProductFront','34','50',5000,'first',0.00,2000.00),(46,'CP_20241116152800114','Product - 123','23','34abl',30,'1',0.00,100.00),(49,'CP_20241116155435976','Tablematt - Chennai','23','34',123,'1',0.00,14800.00),(53,'CP_20241116155435976','hfijh2i','34','56',3344,'1',0.00,3000.00),(54,'CP_20241116155435976','fnijhgif','345','345',45,'67',0.00,200.00),(55,'CP_20241116155435976','fenij2hf','456','657',56,'789',0.00,300.00),(56,'CP_20241116155435976','nbuhfguyg','55','i8',5522,'45',0.00,825.00),(57,'CP_20241116155435976','jbufguygf','56','45',526,'45',0.00,852.00),(58,'CP_20241116155435976','qqee','569','45',478,'25',0.00,1000.00),(59,'CP_20241116155435976','mqnwrebhugr','899','56',456,'58',0.00,1000.00),(63,'CP_20241116222123782','knjfjohr','34','56',567,'67',0.00,300.00),(64,'CP_20241116222123782','nhefiuhu','45','675',899,'FS',0.00,825.00),(65,'CP_20241116222123782','Qwe','567','hhgk',789,'FS',0.00,852.00),(66,'CP_20241116222123782','qwere','456','kfnjhf',890,'fs',0.00,200.00),(70,'CP_20241116222123782','sdgg','56','dsgd',651,'fs',0.00,1000.00),(71,'CP_20241116222123782','knbeuhb','34','45',880,'fs',0.00,2000.00),(72,'CP_20241116222123782','efnef','34566','456',76890,'90',0.00,2000.00),(73,'CP_20241116222123782','3gruh','345','eet34',78,'60',0.00,1000.00),(75,'EC00002','Tablematt - Chennai','23','34',123,'FS',0.00,10800.00),(76,'EC00002','ProductFront','34','20',23,'first',0.00,2000.00),(77,'EC00004','Product123','23','34',12,'FS',0.00,10800.00),(78,'EC00004','Tablematt - Chennai123','34','20',23,'fs',0.00,2000.00),(79,'EC00005','Tablematt - Chennai','18*23','34',123,'FS',0.00,10800.00),(80,'EC00005','pencil','234','20',90,'first',0.00,3000.00),(81,'EC00005','paper','12','20',67,'FS',0.00,100.00),(82,'EC00005','book','18','657',23,'FS',0.00,300.00);
+/*!40000 ALTER TABLE `invoiceitemdetails` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2024-11-19 20:25:28
