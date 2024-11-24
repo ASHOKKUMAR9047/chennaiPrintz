@@ -1,0 +1,171 @@
+﻿@* @model IEnumerable<BillingMVCProject.UIViewModels.InvoiceCustomerDetailsViewModel>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" />
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script> <!-- Bootstrap JS -->
+</body>
+
+<h2>Unpaid Invoices for Customer @Model.FirstOrDefault()?.CustomerName</h2>
+
+<table class="table table-striped table-bordered">
+    <thead class="thead-dark">
+        <tr>
+            <th>Customer Name</th>
+            <th>Invoice ID</th>
+            <th>Invoice Date</th>
+            <th>Payment Status</th>
+            <th>Outstanding Amount</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.CustomerName</td>
+                <td class="invoiceId">@item.InvoiceId</td> <!-- This column contains InvoiceId -->
+                <td class="invoiceDate">@item.InvoiceDate</td> <!-- This column contains InvoiceDate -->
+                <td>@item.PaymentStatus</td>
+                <td>@item.InvoiceOutStandingAmount</td> <!-- Format currency -->
+                <td>
+                    <!-- Record Payment Button that triggers the modal -->
+                    <button class="btn btn-success btn-sm recordPaymentBtn" data-toggle="modal" data-target="#paymentModal">
+                        Record Payment
+                    </button>
+
+                    <!-- Open Invoice Button -->
+                    <a href="@Url.Action("Open", "GSTWithout", new { id = item.InvoiceId })" class="btn btn-primary btn-sm" role="button">
+                        Open
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Modal for Record Payment -->
+<div class="modal fade" id="paymentModal" tabindex="-1" role="dialog" aria-labelledby="paymentModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="paymentModalLabel">Record Payment</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- Display Invoice Details -->
+                <p><strong>Invoice ID:</strong> <span id="modalInvoiceId"></span></p>
+                <p><strong>Invoice Date:</strong> <span id="modalInvoiceDate"></span></p>
+                <p><strong>Outstanding Amount:</strong> <span id="modalOutstandingAmount"></span></p>
+
+                <!-- Payment Form -->
+                <form id="paymentForm">
+                    <div class="form-group">
+                        <label for="paymentMode">Payment Mode</label>
+                        <select id="paymentMode" class="form-control">
+                            <option value="Cash">Cash</option>
+                            <option value="UPI">UPI</option>
+                            <option value="Bank Transfer">Bank Transfer</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="paymentAmount">Amount</label>
+                        <input type="number" class="form-control" id="paymentAmount" placeholder="Enter Payment Amount" required />
+                    </div>
+
+                    <input type="hidden" id="invoiceId" />
+                    <input type="hidden" id="invoiceDate" />
+                    <input type="hidden" id="outstandingAmount" />
+
+                    <button type="submit" class="btn btn-primary">Submit Payment</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Event handler for the "Record Payment" button
+    $(document).on('click', '.recordPaymentBtn', function () {
+        var row = $(this).closest('tr'); // Get the closest <tr> to the clicked button
+        var invoiceId = row.find('.invoiceId').text().trim(); // Get the Invoice ID from the respective <td> (class="invoiceId")
+        var invoiceDate = row.find('.invoiceDate').text().trim(); // Get the Invoice Date from the respective <td> (class="invoiceDate")
+        var outstandingAmount = row.find('td:eq(4)').text().replace(/[^\d.-]/g, '').trim(); // Get the Outstanding Amount (5th column)
+
+        // Log values for debugging
+        console.log("Invoice ID:", invoiceId);
+        console.log("Invoice Date:", invoiceDate);
+        console.log("Outstanding Amount:", outstandingAmount);
+
+        // Set the modal values based on the row's data
+        $('#modalInvoiceId').text(invoiceId); // Show Invoice ID in modal
+        $('#modalInvoiceDate').text(invoiceDate); // Show Invoice Date in modal
+        $('#modalOutstandingAmount').text(outstandingAmount); // Show Outstanding Amount in modal
+
+        // Set hidden inputs in the modal form
+        $('#invoiceId').val(invoiceId);
+        $('#invoiceDate').val(invoiceDate);
+        $('#outstandingAmount').val(outstandingAmount);
+
+        // Optionally, set the max value of the payment input field
+        $('#paymentAmount').attr('max', outstandingAmount);
+    });
+
+    // Form submission for recording payment
+    $('#paymentForm').on('submit', function (e) {
+        e.preventDefault(); // Prevent the default form submission
+
+        // Get the values from the modal's hidden fields
+        var paymentMode = $('#paymentMode').val();
+        var paymentAmount = $('#paymentAmount').val();
+        var invoiceId = $('#invoiceId').val();
+        var invoiceDate = $('#invoiceDate').val();
+        var outstandingAmount = $('#outstandingAmount').val();
+
+        // Log values to ensure they are captured correctly
+        console.log("Payment Mode:", paymentMode);
+        console.log("Payment Amount:", paymentAmount);
+        console.log("Invoice ID:", invoiceId);
+        console.log("Invoice Date:", invoiceDate);
+        console.log("Outstanding Amount:", outstandingAmount);
+
+        // Validate the payment amount
+        if (paymentAmount <= 0 || paymentAmount > outstandingAmount) {
+            alert("Please enter a valid payment amount.");
+            return;
+        }
+
+        // Prepare the data to send via AJAX
+        var data = {
+            InvoiceId: invoiceId,
+            InvoiceDate: invoiceDate,
+            PaymentMode: paymentMode,
+            PaymentAmount: paymentAmount
+        };
+
+        // Perform AJAX request to record the payment
+        $.ajax({
+            url: '@Url.Action("RecordPayment", "GSTWithout")', // Adjust this to your controller action URL
+            type: 'POST',
+            data: data,
+            success: function(response) {
+                if (response.success) {
+                    alert("Payment recorded successfully!");
+                    $('#paymentModal').modal('hide'); // Close the modal on success
+                } else {
+                    alert("There was an error recording the payment.");
+                }
+            },
+            error: function() {
+                alert("Error while submitting payment. Please try again.");
+            }
+        });
+    });
+</script>
+ *@

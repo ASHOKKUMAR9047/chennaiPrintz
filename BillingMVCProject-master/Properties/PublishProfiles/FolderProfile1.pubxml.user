@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\github\chennaiPrintz\Build</_PublishTargetUrl>
+    <History>True|2024-11-19T14:57:54.2916811Z||;True|2024-11-19T20:26:47.8805854+05:30||;True|2024-11-16T23:14:17.7502346+05:30||;True|2024-11-16T22:52:57.5101241+05:30||;True|2024-11-16T21:33:19.8055242+05:30||;True|2024-11-16T18:21:51.4455985+05:30||;True|2024-11-16T18:20:43.2197344+05:30||;True|2024-11-16T14:34:01.3737046+05:30||;True|2024-11-16T14:32:17.7793777+05:30||;True|2024-11-16T14:21:11.1234913+05:30||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

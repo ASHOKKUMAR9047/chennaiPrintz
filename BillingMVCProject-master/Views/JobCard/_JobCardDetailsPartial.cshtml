@@ -1,0 +1,172 @@
+﻿@model BillingMVCProject.UIViewModels.JobCardViewModel
+
+
+
+
+<div class="container mt-6">
+    <div class="card">
+        <div class="card-header">
+            <h5>Edit Job Card</h5>
+        </div>
+        <div class="card-body">
+            <form method="post" asp-action="UpdateJobCard">
+                <!-- Job Header Row -->
+                <div class="row mb-4">
+                    <div class="col">
+                        <h4 class="mb-0">Job Card No: @Model.JobCardId</h4>
+                        <input type="hidden" name="JobCardId" value="@Model.JobCardId" />
+                    </div>
+                </div>
+
+                <!-- Job Dates and Customer Name -->
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <h5>JobCard Date:</h5>
+                        <input type="date" name="IssueDatevalues" value="@Model.IssueDate.ToString("yyyy-MM-dd")" />
+
+
+                    </div>
+                    <div class="col-md-6">
+                        <h5>Customer Name:</h5>
+                        <select class="form-control" name="CustomerId" id="customerDropdown">
+                            <option value="">-- Select Customer --</option>
+                            @foreach (var customer in @Model.Customers)
+                            {
+                                   <option value="@customer.CustomerId" 
+                                   selected="@(customer.CustomerId == Model.CustomerId ? "selected" : "")">
+                                   @customer.CustomerName
+                                   </option>
+                            }
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Job Items Table -->
+                <table class="table table-bordered job-table mt-4" id="jobTable">
+                    <thead>
+                        <tr>
+                            <th>S.No</th>
+                            <th>Description</th>
+                            <th>Size</th>
+                            <th>GSM</th>
+                            <th>IMP</th>
+                            <th>Side</th>
+                            <th>Start Time</th>
+                            <th>End Time</th>
+                            <th>Machine Reading</th>
+                            <th>End Machine Reading</th>
+                            <th>Tot-IMP</th>
+                            <th>Plate Num</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="jobItems">
+                        @for (int i = 0; i < Model.Items.Count; i++)
+                        {
+                            <tr>
+                                <input type="hidden" name="Items[@i].JobItemId" value="@Model.Items[i].JobItemId" />
+                                <td><input type="number" class="form-control" name="Items[@i].SerialNo" readonly value="@(i + 1)"></td>
+                                <td><input type="text" class="form-control" name="Items[@i].Description" value="@Model.Items[i].Description"></td>
+                                <td><input type="text" class="form-control" name="Items[@i].Size" value="@Model.Items[i].Size"></td>
+                                <td><input type="text" class="form-control" name="Items[@i].GSM" value="@Model.Items[i].GSM"></td>
+                                <td><input type="text" class="form-control" name="Items[@i].IMP" value="@Model.Items[i].IMP"></td>
+                                <td><input type="text" class="form-control" name="Items[@i].Side" value="@Model.Items[i].Side"></td>
+                                <td><input type="text" class="form-control" name="Items[@i].StartTime" value="@Model.Items[i].StartTime"></td>
+                                <td><input type="text" class="form-control" name="Items[@i].EndTime" value="@Model.Items[i].EndTime"></td>
+                                <td><input type="text" class="form-control" name="Items[@i].MachineReading" value="@Model.Items[i].MachineReading"></td>
+                                <td><input type="text" class="form-control" name="Items[@i].EndMachineReading" value="@Model.Items[i].EndMachineReading"></td>
+                                <td><input type="text" class="form-control" name="Items[@i].TotIMP" value="@Model.Items[i].TotIMP"></td>
+                                <td><input type="text" class="form-control" name="Items[@i].PlateNum" value="@Model.Items[i].PlateNum"></td>
+                                <td>
+                                    <button type="button" class="btn btn-danger btn-sm" onclick="removeJobItem(this)">
+                                        <i class="fa fa-trash"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <div class="d-flex justify-content-between align-items-center">
+                    <!-- Add Row Button -->
+                    <button type="button" class="btn btn-primary" id="addRowButton">
+                        <i class="fa fa-plus"></i> Add Row
+                    </button>
+
+                    <!-- Update JobCard Button -->
+                    <button type="submit" class="btn btn-success">
+                        <i class="fa fa-save"></i> UpdateJobCard
+                    </button>
+                </div>
+            </form>
+            
+        </div>
+    </div>
+</div>
+
+
+<script>
+        document.getElementById("addRowButton").addEventListener("click", function () {
+        const tableBody = document.getElementById("jobItems");
+        const rowCount = tableBody.querySelectorAll("tr").length;
+
+        // Define the new row
+        const newRow = `
+            <tr>
+                <td><input type="number" class="form-control" name="Items[${rowCount}].SerialNo" readonly value="${rowCount + 1}"></td>
+                <td><input type="text" class="form-control" name="Items[${rowCount}].Description"></td>
+                <td><input type="text" class="form-control" name="Items[${rowCount}].Size"></td>
+                <td><input type="text" class="form-control" name="Items[${rowCount}].GSM"></td>
+                <td><input type="text" class="form-control" name="Items[${rowCount}].IMP"></td>
+                <td><input type="text" class="form-control" name="Items[${rowCount}].Side"></td>
+                <td><input type="text" class="form-control" name="Items[${rowCount}].StartTime"></td>
+                <td><input type="text" class="form-control" name="Items[${rowCount}].EndTime"></td>
+                <td><input type="text" class="form-control" name="Items[${rowCount}].MachineReading"></td>
+                <td><input type="text" class="form-control" name="Items[${rowCount}].EndMachineReading"></td>
+                <td><input type="text" class="form-control" name="Items[${rowCount}].TotIMP"></td>
+                <td><input type="text" class="form-control" name="Items[${rowCount}].PlateNum"></td>
+                <td>
+                    <button type="button" class="btn btn-danger btn-sm" onclick="removeJobItem(this)">
+                        <i class="fa fa-trash"></i>
+                    </button>
+                </td>
+            </tr>
+        `;
+
+        // Append the new row to the table body
+        tableBody.insertAdjacentHTML("beforeend", newRow);
+    });
+
+    // Remove Row Button Click Handler
+    function removeJobItem(button) {
+        const row = button.closest("tr");
+        const tableBody = document.getElementById("jobItems");
+
+        // Remove the row
+        row.remove();
+
+        // Update Serial No and name attributes for all rows
+        const rows = tableBody.querySelectorAll("tr");
+        rows.forEach((row, index) => {
+            const serialInput = row.querySelector("input[name*='SerialNo']");
+            if (serialInput) {
+                serialInput.value = index + 1; // Update Serial Number
+                serialInput.name = `Items[${index}].SerialNo`;
+            }
+
+            const inputs = row.querySelectorAll("input");
+            inputs.forEach(input => {
+                input.name = input.name.replace(/\[\d+\]/, `[${index}]`); // Update other input names
+            });
+        });
+    }
+    // Validate form before submit
+    function validateForm(event) {
+        // Add validation if needed
+        // Example: check if all required fields are filled
+        const customerDropdown = document.getElementById('customerDropdown');
+        if (customerDropdown.value === "") {
+            alert("Please select a customer.");
+            event.preventDefault();  // Prevent form submission
+        }
+    }
+</script>

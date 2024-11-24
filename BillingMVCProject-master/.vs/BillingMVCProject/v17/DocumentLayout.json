@@ -1,0 +1,649 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\controllers\\jobcardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:controllers\\jobcardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\controllers\\gstwithoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:controllers\\gstwithoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\views\\jobcard\\jobcardlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:views\\jobcard\\jobcardlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\views\\jobcard\\_jobcarddetailspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:views\\jobcard\\_jobcarddetailspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\views\\gstwithout\\withoutgstinvoicelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:views\\gstwithout\\withoutgstinvoicelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\views\\gstwithout\\_withoutgstinvoicedetailspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:views\\gstwithout\\_withoutgstinvoicedetailspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\uiviewmodels\\jobcardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:uiviewmodels\\jobcardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\models\\billingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:models\\billingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\models\\invoicedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:models\\invoicedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\views\\jobcard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:views\\jobcard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\wwwroot\\js\\commonurl.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:wwwroot\\js\\commonurl.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\uiviewmodels\\invoicedetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:uiviewmodels\\invoicedetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\models\\jobcarddetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:models\\jobcarddetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\uiviewmodels\\invoiceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:uiviewmodels\\invoiceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\views\\gstwithout\\viewdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:views\\gstwithout\\viewdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\uiviewmodels\\invoicecustomerdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:uiviewmodels\\invoicecustomerdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\views\\gstwithout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:views\\gstwithout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\uiviewmodels\\invoicecustomerdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:uiviewmodels\\invoicecustomerdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\views\\gstwithout\\_customerdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:views\\gstwithout\\_customerdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\uiviewmodels\\customerviews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:uiviewmodels\\customerviews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\views\\billing\\invoice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:views\\billing\\invoice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\uiviewmodels\\invoicefilterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:uiviewmodels\\invoicefilterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\models\\invoiceitemdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:models\\invoiceitemdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\controllers\\billingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:controllers\\billingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\views\\billing\\_invoicedetailspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:views\\billing\\_invoicedetailspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\views\\billing\\invoicelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:views\\billing\\invoicelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\views\\billing\\invoicelistdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:views\\billing\\invoicelistdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\views\\billing\\_editmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:views\\billing\\_editmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|c:\\users\\chandra babu\\downloads\\billingmvcproject-master\\billingmvcproject-master\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0DD5A373-8C83-4448-BEB1-D7B34F0E99E2}|BillingMVCProject.csproj|solutionrelative:views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 823,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GSTWithoutController.cs",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Controllers\\GSTWithoutController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GSTWithoutController.cs",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Controllers\\GSTWithoutController.cs",
+              "RelativeToolTip": "Controllers\\GSTWithoutController.cs",
+              "ViewState": "AgIAADsBAAAAAAAAAAAjwDMBAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T11:27:57.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_WithOutGSTInvoiceDetailsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Views\\GSTWithout\\_WithOutGSTInvoiceDetailsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\GSTWithout\\_WithOutGSTInvoiceDetailsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Views\\GSTWithout\\_WithOutGSTInvoiceDetailsPartial.cshtml",
+              "RelativeToolTip": "Views\\GSTWithout\\_WithOutGSTInvoiceDetailsPartial.cshtml",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAPgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T11:26:11.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JobCardList.cshtml",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Views\\JobCard\\JobCardList.cshtml",
+              "RelativeDocumentMoniker": "Views\\JobCard\\JobCardList.cshtml",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Views\\JobCard\\JobCardList.cshtml",
+              "RelativeToolTip": "Views\\JobCard\\JobCardList.cshtml",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAkwGcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T04:39:29.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_JobCardDetailsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Views\\JobCard\\_JobCardDetailsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\JobCard\\_JobCardDetailsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Views\\JobCard\\_JobCardDetailsPartial.cshtml",
+              "RelativeToolTip": "Views\\JobCard\\_JobCardDetailsPartial.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T06:07:15.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JobCardController.cs",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Controllers\\JobCardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\JobCardController.cs",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Controllers\\JobCardController.cs",
+              "RelativeToolTip": "Controllers\\JobCardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T04:32:06.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Views\\JobCard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\JobCard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Views\\JobCard\\Index.cshtml",
+              "RelativeToolTip": "Views\\JobCard\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T04:32:56.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WithOutGSTInvoiceList.cshtml",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Views\\GSTWithout\\WithOutGSTInvoiceList.cshtml",
+              "RelativeDocumentMoniker": "Views\\GSTWithout\\WithOutGSTInvoiceList.cshtml",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Views\\GSTWithout\\WithOutGSTInvoiceList.cshtml",
+              "RelativeToolTip": "Views\\GSTWithout\\WithOutGSTInvoiceList.cshtml",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAHkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T10:13:20.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "billingContext.cs",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Models\\billingContext.cs",
+              "RelativeDocumentMoniker": "Models\\billingContext.cs",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Models\\billingContext.cs",
+              "RelativeToolTip": "Models\\billingContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAnwBYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T18:11:35.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InvoiceDetail.cs",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Models\\InvoiceDetail.cs",
+              "RelativeDocumentMoniker": "Models\\InvoiceDetail.cs",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Models\\InvoiceDetail.cs",
+              "RelativeToolTip": "Models\\InvoiceDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T18:11:35.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JobCardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\UIViewModels\\JobCardViewModel.cs",
+              "RelativeDocumentMoniker": "UIViewModels\\JobCardViewModel.cs",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\UIViewModels\\JobCardViewModel.cs",
+              "RelativeToolTip": "UIViewModels\\JobCardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T07:07:13.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAYwIgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T18:11:35.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-14T18:16:25.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CommonURL.js",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\wwwroot\\js\\CommonURL.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\CommonURL.js",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\wwwroot\\js\\CommonURL.js",
+              "RelativeToolTip": "wwwroot\\js\\CommonURL.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-14T18:11:35.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAawCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T18:11:35.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "InvoiceDetailViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\UIViewModels\\InvoiceDetailViewModel.cs",
+              "RelativeDocumentMoniker": "UIViewModels\\InvoiceDetailViewModel.cs",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\UIViewModels\\InvoiceDetailViewModel.cs",
+              "RelativeToolTip": "UIViewModels\\InvoiceDetailViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T18:11:35.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Jobcarddetail.cs",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Models\\Jobcarddetail.cs",
+              "RelativeDocumentMoniker": "Models\\Jobcarddetail.cs",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Models\\Jobcarddetail.cs",
+              "RelativeToolTip": "Models\\Jobcarddetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T04:36:40.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "InvoiceViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\UIViewModels\\InvoiceViewModel.cs",
+              "RelativeDocumentMoniker": "UIViewModels\\InvoiceViewModel.cs",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\UIViewModels\\InvoiceViewModel.cs",
+              "RelativeToolTip": "UIViewModels\\InvoiceViewModel.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAzwCYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T18:11:35.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ViewDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Views\\GSTWithout\\ViewDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\GSTWithout\\ViewDetails.cshtml",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Views\\GSTWithout\\ViewDetails.cshtml",
+              "RelativeToolTip": "Views\\GSTWithout\\ViewDetails.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T18:32:40.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "InvoiceCustomerDetail.cs",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\UIViewModels\\InvoiceCustomerDetail.cs",
+              "RelativeDocumentMoniker": "UIViewModels\\InvoiceCustomerDetail.cs",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\UIViewModels\\InvoiceCustomerDetail.cs",
+              "RelativeToolTip": "UIViewModels\\InvoiceCustomerDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T18:11:35.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Views\\GSTWithout\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\GSTWithout\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Views\\GSTWithout\\Index.cshtml",
+              "RelativeToolTip": "Views\\GSTWithout\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T18:11:35.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-14T18:11:35.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "InvoiceCustomerDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\UIViewModels\\InvoiceCustomerDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "UIViewModels\\InvoiceCustomerDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\UIViewModels\\InvoiceCustomerDetailsViewModel.cs",
+              "RelativeToolTip": "UIViewModels\\InvoiceCustomerDetailsViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvwYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T18:35:43.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_CustomerDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Views\\GSTWithout\\_CustomerDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\GSTWithout\\_CustomerDetails.cshtml",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Views\\GSTWithout\\_CustomerDetails.cshtml",
+              "RelativeToolTip": "Views\\GSTWithout\\_CustomerDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T05:36:20.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CustomerViews.cs",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\UIViewModels\\CustomerViews.cs",
+              "RelativeDocumentMoniker": "UIViewModels\\CustomerViews.cs",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\UIViewModels\\CustomerViews.cs",
+              "RelativeToolTip": "UIViewModels\\CustomerViews.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T18:11:35.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Invoice.cshtml",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Views\\Billing\\Invoice.cshtml",
+              "RelativeDocumentMoniker": "Views\\Billing\\Invoice.cshtml",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Views\\Billing\\Invoice.cshtml",
+              "RelativeToolTip": "Views\\Billing\\Invoice.cshtml",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAAoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T18:11:35.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T18:11:35.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "InvoiceFilterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\UIViewModels\\InvoiceFilterViewModel.cs",
+              "RelativeDocumentMoniker": "UIViewModels\\InvoiceFilterViewModel.cs",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\UIViewModels\\InvoiceFilterViewModel.cs",
+              "RelativeToolTip": "UIViewModels\\InvoiceFilterViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T18:11:35.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Invoiceitemdetail.cs",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Models\\Invoiceitemdetail.cs",
+              "RelativeDocumentMoniker": "Models\\Invoiceitemdetail.cs",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Models\\Invoiceitemdetail.cs",
+              "RelativeToolTip": "Models\\Invoiceitemdetail.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA5wBAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T18:11:35.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BillingController.cs",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Controllers\\BillingController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BillingController.cs",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Controllers\\BillingController.cs",
+              "RelativeToolTip": "Controllers\\BillingController.cs",
+              "ViewState": "AQIAAHQBAAAAAAAAAAAqwHwBAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T18:11:35.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_InvoiceDetailsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Views\\Billing\\_InvoiceDetailsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Billing\\_InvoiceDetailsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Views\\Billing\\_InvoiceDetailsPartial.cshtml",
+              "RelativeToolTip": "Views\\Billing\\_InvoiceDetailsPartial.cshtml",
+              "ViewState": "AQIAAFoBAAAAAAAAAAAqwGMBAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T18:11:35.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "InvoiceList.cshtml",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Views\\Billing\\InvoiceList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Billing\\InvoiceList.cshtml",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Views\\Billing\\InvoiceList.cshtml",
+              "RelativeToolTip": "Views\\Billing\\InvoiceList.cshtml",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAqwGIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T18:11:35.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "InvoiceListdetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Views\\Billing\\InvoiceListdetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\Billing\\InvoiceListdetails.cshtml",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Views\\Billing\\InvoiceListdetails.cshtml",
+              "RelativeToolTip": "Views\\Billing\\InvoiceListdetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T18:11:35.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_EditModal.cshtml",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Views\\Billing\\_EditModal.cshtml",
+              "RelativeDocumentMoniker": "Views\\Billing\\_EditModal.cshtml",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Views\\Billing\\_EditModal.cshtml",
+              "RelativeToolTip": "Views\\Billing\\_EditModal.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T18:11:35.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAwwB4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T18:11:35.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T18:11:35.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-14T18:11:35.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Chandra Babu\\Downloads\\BillingMVCProject-master\\BillingMVCProject-master\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T18:11:35.656Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
